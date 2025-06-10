@@ -8,6 +8,8 @@ def subtract(x, y):
 
 def multiply(x, y):
     return x * y
+    result = SimpleCalculator.multiplication(7, 1)
+    assert result == 7
 
 def divide(x, y):
     # If the division is by zero
